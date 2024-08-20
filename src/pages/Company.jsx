@@ -2,6 +2,8 @@ import React from 'react'
 import Boards from '../components/Boards'
 import Booking from '../components/Booking'
 import Footer from '../components/Footer'
+import BackToTop from '../components/BackToTop'
+import WhyWorkWithUs from '../components/WhyWorkWithUs'
 
 const Company = () => {
     return (
@@ -33,8 +35,10 @@ const Company = () => {
                 <h1 className='text-4xl font-bold'>Management Team</h1>
             </div>
             <Boards />
+            <WhyWorkWithUs />
             <Booking />
             <Footer />
+            <BackToTop />
         </>
     )
 }

@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 const About = () => {
   return (
@@ -12,15 +13,21 @@ const About = () => {
             </div>
         </section>
         <div className='xl:flex lg:flex md:flex sm:block block justify-evenly pt-12'>
-            <aside className='bg-white w-52 h-52 rounded-full flex justify-center text-center items-center content-center font-bold text-xl hover:bg-blue-400 border-blue-600 border-2 mt-6'>
-                About Us <br/>Who we are
-            </aside>
-            <aside className='bg-white w-52 h-52 rounded-full flex justify-center text-center items-center content-center font-bold text-xl hover:bg-blue-400 border-blue-600 border-2 mt-6'>
-                Why work with us
-            </aside>
-            <aside className='bg-white w-52 h-52 rounded-full flex justify-center text-center items-center content-center font-bold text-xl hover:bg-blue-400 border-blue-600 border-2 mt-6'>
-                Our Impact
-            </aside>
+            <Link to="/company">
+                <aside className='bg-white w-52 h-52 rounded-full flex justify-center text-center items-center content-center font-bold text-xl hover:bg-blue-400 border-blue-600 hover:border-yellow-500 border-2 mt-6'>
+                    About Us <br/>Who we are
+                </aside>
+            </Link>
+            <Link to="/company#why">
+                <aside className='bg-white w-52 h-52 rounded-full flex justify-center text-center items-center content-center font-bold text-xl hover:bg-blue-400 border-blue-600 hover:border-yellow-500 border-2 mt-6'>
+                    Why work with us
+                </aside>
+            </Link>
+            <Link to="/solutionn">
+                <aside className='bg-white w-52 h-52 rounded-full flex justify-center text-center items-center content-center font-bold text-xl hover:bg-blue-400 border-blue-600 hover:border-yellow-500 border-2 mt-6'>
+                    Our Impact
+                </aside>
+            </Link>
         </div>
     </section>
   )
