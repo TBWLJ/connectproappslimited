@@ -7,6 +7,7 @@ const Solutionn = () => {
         imgSrc: "cp.png",
         imgAlt: "ConnectPro Logo",
         linkText: "Visit Link",
+        anchor: "https://connectpros.netlify.app"
       },
       {
         title: "AssessLive",
@@ -15,6 +16,7 @@ const Solutionn = () => {
         imgSrc: "cp.png",
         imgAlt: "AssessLive Logo",
         linkText: "Visit Link",
+        anchor: "https://connectproappslimited.vercel.app"
       },
       {
         title: "LiveKick",
@@ -23,6 +25,7 @@ const Solutionn = () => {
         imgSrc: "cp.png",
         imgAlt: "LiveKick Logo",
         linkText: "Visit Link",
+        anchor: "https://connectproappslimited.vercel.app"
       },
     ];
   
@@ -44,7 +47,9 @@ const Solutionn = () => {
                 className="w-12 hover:w-16 mt-5 transition-all duration-300"
                 alt={solution.imgAlt}
               />
-              <h1 className="font-bold text-xl pt-5">{solution.linkText}</h1>
+              <Link to={solution.anchor}>
+                <h1 className="font-bold text-xl pt-5">{solution.linkText}</h1>
+              </Link>
             </div>
           ))}
         </section>
