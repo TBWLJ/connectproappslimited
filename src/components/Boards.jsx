@@ -2,6 +2,11 @@ import React from 'react';
 
 const boardsData = [
   {
+    name: 'TAIWO AYOMIDE',
+    role: 'Chief Executive Officer',
+    imgSrc: 'ayomi.png',
+  },
+  {
     name: 'OLUWAGBEMI JEDUTHUN',
     role: 'Chief Operating Officer',
     imgSrc: 'Jedman.png',
@@ -11,20 +16,20 @@ const boardsData = [
     role: 'Head of Marketing',
     imgSrc: 'Tiolu.png',
   },
-  {
+  { 
     name: 'EWUOLA REUBEN',
     role: 'Head, Business Unit',
     imgSrc: 'Ewuola.png',
   },
   {
-    name: 'BOLAJI DAVID',
-    role: 'Chief Product Officer',
-    imgSrc: 'David.png',
+    name: 'OYEYIPO FAVOUR',
+    role: 'Head of Operation',
+    imgSrc: 'favour.png',
   },
   {
-    name: 'OYESUSI OLUWASEYI',
-    role: 'Group Head, Business Unit',
-    imgSrc: 'IMG_2655.jpg',
+    name: 'AJIBADE OLUWATOYIN',
+    role: 'Chief Product Officer',
+    imgSrc: 'Toyin_prev_ui.png',
   },
 ];
 

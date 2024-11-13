@@ -3,13 +3,13 @@ import { Link } from 'react-router-dom'
 const Solutionn = () => {
     const solutions = [
       {
-        title: "ConnectPro Chat App",
+        title: "ConnectMarket Store",
         description:
-          "ConnectPro is a professional networking app designed to help people make business connections, share their experiences and resume, and find job by bringing professionals in different fields together.",
-        imgSrc: "cp.png",
+          "ConnectMarket Store is a multi-vendor ecommerce platform for sellers and buyers. It is a platform where sellers meet potential buyers for there goods.",
+        imgSrc: "cm.png",
         imgAlt: "ConnectPro Logo",
         linkText: "Visit Link",
-        anchor: "https://connectpros.netlify.app"
+        anchor: "https://connectmarket.vercel.app"
       },
       {
         title: "AssessLive",
