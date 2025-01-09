@@ -143,7 +143,7 @@ export default function App() {
             <Link to="/contact">
               <p>
                 <a className="text-neutral-600 dark:text-neutral-200"
-                >Contach Us</a>
+                >Contact Us</a>
               </p>
             </Link>
           </div>
@@ -211,7 +211,7 @@ export default function App() {
 
       {/* <!--Copyright section--> */}
       <div className="bg-neutral-200 p-6 text-center dark:bg-neutral-700">
-        <span>© 2024 </span>
+        <span>© 2025 </span>
         <a
           className="font-semibold text-neutral-600 dark:text-neutral-400"
           href="/"
