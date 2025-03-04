@@ -11,25 +11,10 @@ const boardsData = [
     role: 'Chief Operating Officer',
     imgSrc: 'Jedman.png',
   },
-  {
-    name: 'AKERELE TIOLUWANIMI',
-    role: 'Head of Marketing',
-    imgSrc: 'Tiolu.png',
-  },
   { 
     name: 'EWUOLA REUBEN',
     role: 'Head, Business Unit',
     imgSrc: 'Ewuola.png',
-  },
-  {
-    name: 'OYEYIPO FAVOUR',
-    role: 'Head of Operation',
-    imgSrc: 'favour.png',
-  },
-  {
-    name: 'AJIBADE OLUWATOYIN',
-    role: 'Chief Product Officer',
-    imgSrc: 'Toyin_prev_ui.png',
   },
 ];
 

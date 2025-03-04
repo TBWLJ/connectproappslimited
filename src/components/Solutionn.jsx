@@ -42,10 +42,12 @@ const Solutionn = () => {
   
     return (
       <>
-        <div className="text-center mt-28">
+        <div className="text-center mt-28" data-aos="fade-up" data-aos-easing="linear"
+        data-aos-duration="1500">
           <h1 className="text-3xl font-bold">Our Solutions</h1>
         </div>
-        <section className="flex flex-wrap justify-evenly px-5 pb-10">
+        <section className="flex flex-wrap justify-evenly px-5 pb-10" data-aos="fade-up" data-aos-easing="linear"
+        data-aos-duration="1500">
           {solutions.map((solution, index) => (
             <div
               key={index}

@@ -3,10 +3,12 @@ import React from 'react'
 const Services = () => {
   return (
     <div>
-        <div className='mt-32 text-center pb-10'>
+        <div className='mt-32 text-center pb-10' data-aos="zoom-in" data-aos-easing="linear"
+        data-aos-duration="1500">
             <h1 className='text-3xl font-bold'>Our Core Services</h1>
         </div>
-        <ul class="grid grid-cols-1 gap-6 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
+        <ul class="grid grid-cols-1 gap-6 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4" data-aos="fade-up" data-aos-easing="linear"
+        data-aos-duration="1500">
         <li class="col-span-1 flex flex-col divide-y divide-gray-200 rounded-lg bg-red-200 text-center shadow">
             <div class="flex flex-1 flex-col p-8">
             <img class="mx-auto flex-shrink-0 h-48" src="ui.png" loading='lazy' alt=""/>
