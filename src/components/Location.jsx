@@ -34,12 +34,6 @@ const Location = () => {
               <p className="text-lg text-center pt-5">1500LT Junction, Under G Lautech Area, Ogbomoso, Oyo State, Nigeria.</p>
             </div>
             <div
-              className="w-full sm:w-96 bg-blue-200 mt-10 p-5 flex flex-col items-center"
-            >
-              <h1 className="font-bold text-xl uppercase">Ile Ife OFFICE:</h1>
-              <p className="text-lg text-center pt-5">Ife - Ibadan Express way, Akinlalu Township, Akinlalu-Ife, Osun State, Nigeria.</p>
-            </div>
-            <div
               className="w-full sm:w-96 bg-red-200 mt-10 p-5 flex flex-col items-center"
             >
               <h1 className="font-bold text-xl uppercase">Asipa OFFICE:</h1>

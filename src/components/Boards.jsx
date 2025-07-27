@@ -3,18 +3,13 @@ import React from 'react';
 const boardsData = [
   {
     name: 'TAIWO AYOMIDE',
-    role: 'Chief Executive Officer',
+    role: 'Principal Software Architect',
     imgSrc: 'ayomi.png',
   },
   {
     name: 'OLUWAGBEMI JEDUTHUN',
-    role: 'Chief Operating Officer',
+    role: 'Software Engineer',
     imgSrc: 'Jedman.png',
-  },
-  { 
-    name: 'EWUOLA REUBEN',
-    role: 'Head, Business Unit',
-    imgSrc: 'Ewuola.png',
   },
 ];
 

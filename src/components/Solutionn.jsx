@@ -3,13 +3,13 @@ import { Link } from 'react-router-dom'
 const Solutionn = () => {
     const solutions = [
       {
-        title: "ConnectMarket Store",
+        title: "Panelly",
         description:
-          "ConnectMarket Store is a multi-vendor ecommerce platform for sellers and buyers. It is a platform where sellers meet potential buyers for there goods.",
-        imgSrc: "cm.png",
-        imgAlt: "ConnectPro Logo",
+          "Panelly is a cloud-based platform that lets freelancers and service-based businesses create dedicated, secure client portals for each of their projects — without writing a single line of code.",
+        imgSrc: "icon.png",
+        imgAlt: "Panelly Logo",
         linkText: "Visit Link",
-        anchor: "https://connectmarket.vercel.app"
+        anchor: "https://www.panelly.name.ng"
       },
       {
         title: "CoonnectPro Logistics",
