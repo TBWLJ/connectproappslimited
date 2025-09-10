@@ -19,6 +19,16 @@ const Services = () => {
             </dl>
             </div>
         </li>
+        <li class="col-span-1 flex flex-col divide-y divide-gray-200 rounded-lg bg-red-200 text-center shadow">
+            <div class="flex flex-1 flex-col p-8">
+            <img class="mx-auto flex-shrink-0 h-48" src="5829456.webp" loading='lazy' alt=""/>
+            <h3 class="mt-6 text-xl font-bold text-gray-900">Graphic Design</h3>
+            <dl class="mt-1 flex flex-grow flex-col justify-between">
+                <dt class="sr-only">Title</dt>
+                <dd class="text-xl text-gray-500">Starting from concept, information architecture, visual identity and UI/UX design, our team delivers dazzling experiences for maximum user engagement.</dd>
+            </dl>
+            </div>
+        </li>
         <li class="col-span-1 flex flex-col divide-y divide-gray-200 rounded-lg bg-cyan-200 text-center shadow">
             <div class="flex flex-1 flex-col p-8">
             <img class="mx-auto flex-shrink-0 h-48" src="mob.png" loading='lazy' alt=""/>

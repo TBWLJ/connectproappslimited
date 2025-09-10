@@ -5,7 +5,7 @@ const Solutionn = () => {
       {
         title: "Panelly",
         description:
-          "Panelly is a cloud-based platform that lets freelancers and service-based businesses create dedicated, secure client portals for each of their projects — without writing a single line of code.",
+          "Panelly is a cloud-based platform that lets freelancers and service-based businesses create dedicated, secure client portals for each of their projects, without writing a single line of code.",
         imgSrc: "icon.png",
         imgAlt: "Panelly Logo",
         linkText: "Visit Link",
@@ -51,7 +51,7 @@ const Solutionn = () => {
           {solutions.map((solution, index) => (
             <div
               key={index}
-              className="w-full sm:w-96 bg-gray-200 mt-10 p-5 flex flex-col items-center"
+              className="w-full sm:w-96 bg-gray-200 mt-10 p-5 flex flex-col items-center rounded-xl"
             >
               <h1 className="font-bold text-xl">{solution.title}</h1>
               <p className="text-lg text-center pt-5">{solution.description}</p>
@@ -71,5 +71,5 @@ const Solutionn = () => {
     );
   };
   
-  export default Solutionn;
+export default Solutionn;
   

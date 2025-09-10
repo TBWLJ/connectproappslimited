@@ -10,7 +10,8 @@ const About = () => {
                 <img src="cp.png" className=' w-20' loading='lazy' alt="connectpro_logo" />
             </div>
             <div className='flex xl:justify-end lg:justify-end md:justify-center sm:justify-start justify-start pt-10'>
-                <h1 className='text-white xl:w-7/12 lg:w-7/12 md:7/12 sm:w-9/12 w-full leading-8'>ConnectPro Apps Limited is an IT firm that develops and deploys Technology platforms and solutions that make life easier, and work smarter. <br/> Our leading technological transformations have affected lives across various landscapes within the continent.</h1>
+                {/* <h1 className='text-white xl:w-7/12 lg:w-7/12 md:7/12 sm:w-9/12 w-full leading-8'>ConnectPro Apps Limited is an IT firm that develops and deploys Technology platforms and solutions that make life easier, and work smarter. <br/> Our leading technological transformations have affected lives across various landscapes within the continent.</h1> */}
+                <h1 className='text-white xl:w-7/12 lg:w-7/12 md:7/12 sm:w-9/12 w-full leading-8'>Taiwo Ayomide Group of companies is a global firm that develops and deploys Technology platforms and solutions that make life easier, and work smarter. <br/> TAGOC is a leading company for that works across major sections across various landscapes within and outside the continent.</h1>
             </div>
         </section>
         <div className='xl:flex lg:flex md:flex sm:block block justify-evenly pt-12' data-aos="fade-up" data-aos-easing="linear"
