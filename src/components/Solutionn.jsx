@@ -21,23 +21,23 @@ const Solutionn = () => {
         anchor: "https://connectmarket.vercel.app"
       },
       {
-        title: "AssessLive",
+        title: "Shop4Mi",
         description:
-          "AssessLive is an app designed for real-time assessments, allowing instructors and students to interact seamlessly and track progress effectively.",
-        imgSrc: "cp.png",
+          "Shop4Mi is a modern e-commerce platform built for seamless shopping experiences. It connects users with top-quality tech products, accessories, and everyday essentials through a fast.",
+        imgSrc: "shop4mi-icon.png",
         imgAlt: "AssessLive Logo",
         linkText: "Visit Link",
-        anchor: "https://connectproappslimited.vercel.app"
+        anchor: "https://shop4mi.com.ng"
       },
-      {
-        title: "LiveKick",
-        description:
-          "LiveKick is a platform that connects fitness enthusiasts with personal trainers through live video sessions, offering customized workout plans.",
-        imgSrc: "cp.png",
-        imgAlt: "LiveKick Logo",
-        linkText: "Visit Link",
-        anchor: "https://connectproappslimited.vercel.app"
-      },
+      // {
+      //   title: "LiveKick",
+      //   description:
+      //     "LiveKick is a platform that connects fitness enthusiasts with personal trainers through live video sessions, offering customized workout plans.",
+      //   imgSrc: "cp.png",
+      //   imgAlt: "LiveKick Logo",
+      //   linkText: "Visit Link",
+      //   anchor: "https://connectproappslimited.vercel.app"
+      // },
     ];
   
     return (

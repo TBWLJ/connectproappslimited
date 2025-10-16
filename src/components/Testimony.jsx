@@ -38,9 +38,9 @@ const testimonials = [
   {
     title:
       "The team went above and beyond to ensure my issue was resolved quickly and efficiently. Truly outstanding!",
-    client: "Tito",
-    clientInfo: "Writer",
-    img: "titos.png",
+    client: "Precious",
+    clientInfo: "Project Manager",
+    img: "icon.png",
   },
   {
     title:
@@ -91,18 +91,18 @@ export function Testimony() {
           </CardHeader>
           <CardBody className="items-center mx-auto py-2">
             <img
-              src="tech.png"
+              src="shop4mi-icon.png"
               className="max-w-[8rem] mx-auto grayscale"
               alt="spotify"
             />
             <Typography variant="h6" color="blue">
-              Exo
+              Success
             </Typography>
             <Typography
               variant="paragraph"
               className="font-normal !text-gray-500"
             >
-              Software Professional
+              Trader
             </Typography>
           </CardBody>
         </Card>

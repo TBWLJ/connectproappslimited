@@ -99,25 +99,32 @@ export default function App() {
               className="mb-4 flex justify-center font-semibold uppercase md:justify-start">
               ConnectPro App
             </h6>
+            <Link to="https://panelly.name.ng/">
             <p className="mb-4">
               <a className="text-neutral-600 dark:text-neutral-200"
               >Panelly</a>
             </p>
+            </Link>
+            <Link to="https://shop4mi.com.ng/">
             <p className="mb-4">
               <a className="text-neutral-600 dark:text-neutral-200"
-              >LiveAccess</a>
+              >Shop4Mi</a>
             </p>
+            </Link>
             <Link to="https://titoscorner.vercel.app/">
               <p className="mb-4">
                 <a className="text-neutral-600 dark:text-neutral-200"
                 >Titos Corner</a>
               </p>
             </Link>
+            <Link to="https://samaday.com.ng/">
             <p className="mb-4">
               <a className="text-neutral-600 dark:text-neutral-200"
-              >Titos Corner</a>
+              >Samaday Properties</a>
             </p>
+            </Link>
           </div>
+
           {/* <!-- Useful links section --> */}
           <div className="">
             <h6

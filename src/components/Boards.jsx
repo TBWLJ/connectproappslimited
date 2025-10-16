@@ -5,11 +5,13 @@ const boardsData = [
     name: 'TAIWO AYOMIDE',
     role: 'Principal Software Architect',
     imgSrc: 'ayomi.png',
+    link: 'https://thetbwlj.vercel.app'
   },
   {
     name: 'OLUWAGBEMI JEDUTHUN',
     role: 'Software Engineer',
     imgSrc: 'Jedman.png',
+    // link: 'https://github.com/jedi-jedi'
   },
 ];
 
@@ -25,9 +27,14 @@ const Boards = () => {
               alt={`${board.name}`}
             />
             <section className="flex justify-center -mt-6">
-              <div className="bg-blue-600 w-4/5 h-16 text-center pt-2 rounded-md shadow-lg">
+              <div className="bg-blue-600 w-4/5 h-auto text-center pt-2 rounded-md shadow-lg">
                 <h1 className="text-white text-xl font-bold">{board.name}</h1>
                 <h2 className="text-white">{board.role}</h2>
+                {board.link && (
+                  <a href={board.link} target="_blank" rel="noopener noreferrer" className="text-white underline">
+                    View Profile
+                  </a>
+                )}
               </div>
             </section>
           </div>
