@@ -11,15 +11,15 @@ const Solutionn = () => {
         linkText: "Visit Link",
         anchor: "https://www.panelly.name.ng"
       },
-      {
-        title: "CoonnectPro Logistics",
-        description:
-          "ConnectPro Logistics services is a branch of ConnectPro that deals with delivery of goods both home and abroad. It is available in Africa and some part of North America.",
-        imgSrc: "cm.png",
-        imgAlt: "ConnectPro Logo",
-        linkText: "Visit Link",
-        anchor: "https://connectmarket.vercel.app"
-      },
+      // {
+      //   title: "CoonnectPro Logistics",
+      //   description:
+      //     "ConnectPro Logistics services is a branch of ConnectPro that deals with delivery of goods both home and abroad. It is available in Africa and some part of North America.",
+      //   imgSrc: "cm.png",
+      //   imgAlt: "ConnectPro Logo",
+      //   linkText: "Visit Link",
+      //   anchor: "https://connectmarket.vercel.app"
+      // },
       {
         title: "Shop4Mi",
         description:
