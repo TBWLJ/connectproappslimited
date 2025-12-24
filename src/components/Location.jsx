@@ -19,7 +19,7 @@ const Location = () => {
               className="w-full sm:w-96 bg-blue-200 mt-10 p-5 flex flex-col items-center"
             >
               <h1 className="font-bold text-xl uppercase">Email us:</h1>
-              <p className="text-lg text-center pt-5">support@connectproappslimited.com</p>
+              <p className="text-lg text-center pt-5">devjtaiwo@gmail.com</p>
             </div>
             <div
               className="w-full sm:w-96 bg-green-200 mt-10 p-5 flex flex-col items-center"

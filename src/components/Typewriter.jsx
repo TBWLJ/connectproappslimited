@@ -13,7 +13,7 @@ const TypeError = () => {
             words={['WEB APPLICATIONS', 'MOBILE APPLICATIONS', 'CLOUD APPLICATIONS', 'INTERNET OF THINGS', 'CYBER SECURITY', 'GRAPHIC DESIGN', 'VIDEO EDITING', 'CINEMATOGRAPHY']}
             loop={false}
             cursor
-            cursorStyle='_'
+            cursorStyle='.'
             typeSpeed={70}
             deleteSpeed={100}
             delaySpeed={1500}
